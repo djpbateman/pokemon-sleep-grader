@@ -35,7 +35,7 @@ const {
       </div>
     </div>
     <div class="mt-3 pt-3 border-t border-slate-700 text-[10px] text-slate-500 italic">
-      * Formula: $Z = (Score - μ) / σ
+      * Formula: Z = (Score - μ) / σ
     </div>
   </div>
 </template>
