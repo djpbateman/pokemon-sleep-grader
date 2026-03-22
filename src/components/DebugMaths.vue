@@ -23,8 +23,8 @@ const {
     <div class="grid grid-cols-2 gap-2">
       <div class="border-r border-slate-700 pr-2 text-left">
         <p class="text-slate-500 uppercase mb-1">Population Stats</p>
-        <p>Mean ($\mu$): {{ stats.mu.toFixed(4) }}</p>
-        <p>Std Dev ($\sigma$): {{ stats.sigma.toFixed(4) }}</p>
+        <p>Mean (μ): {{ stats.mu.toFixed(4) }}</p>
+        <p>Std Dev (σ): {{ stats.sigma.toFixed(4) }}</p>
       </div>
       <div class="pl-2 text-left">
         <p class="text-slate-500 uppercase mb-1">Current Calculation</p>
@@ -35,7 +35,7 @@ const {
       </div>
     </div>
     <div class="mt-3 pt-3 border-t border-slate-700 text-[10px] text-slate-500 italic">
-      * Formula: $Z = (Score - \mu) / \sigma$
+      * Formula: $Z = (Score - μ) / σ
     </div>
   </div>
 </template>
