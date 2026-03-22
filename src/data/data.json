@@ -1,0 +1,73 @@
+{
+  "gradingConfig": {
+    "levelScaling": [
+      { "slot": 1, "multiplier": 1.5 },
+      { "slot": 2, "multiplier": 1.25 },
+      { "slot": 3, "multiplier": 1.0 },
+      { "slot": 4, "multiplier": 0.75 },
+      { "slot": 5, "multiplier": 0.5 }
+    ],
+    "grades": ["F", "D", "C", "B", "A", "S"],
+    "gradeThresholds": [25, 50, 70, 85, 95, 100]
+  },
+
+  "pokemonTypes": ["Berry", "Ingredient", "Skill"],
+
+  "natures": {
+    "Hardy": { "Berry": 1.0, "Ingredient": 1.0, "Skill": 1.0 },
+    "Lonely": { "Berry": 1.0, "Ingredient": 1.0, "Skill": 0.67 },
+    "Brave": { "Berry": 1.67, "Ingredient": 1.67, "Skill": 1.67 },
+    "Adamant": { "Berry": 3.0, "Ingredient": -0.17, "Skill": 0.67 },
+    "Naughty": { "Berry": 1.83, "Ingredient": 1.67, "Skill": -0.17 },
+
+    "Bold": { "Berry": -1.33, "Ingredient": -1.33, "Skill": -1.0 },
+    "Docile": { "Berry": 1.0, "Ingredient": 1.0, "Skill": 1.0 },
+    "Relaxed": { "Berry": -0.67, "Ingredient": -0.67, "Skill": -0.33 },
+    "Impish": { "Berry": 1.5, "Ingredient": -1.33, "Skill": -0.17 },
+    "Lax": { "Berry": 0.17, "Ingredient": 0.17, "Skill": -1.0 },
+
+    "Timid": { "Berry": -1.0, "Ingredient": -1.0, "Skill": -1.0 },
+    "Hasty": { "Berry": 0.33, "Ingredient": 0.33, "Skill": 0.0 },
+    "Serious": { "Berry": 1.0, "Ingredient": 1.0, "Skill": 1.0 },
+    "Jolly": { "Berry": 2.17, "Ingredient": -1.0, "Skill": 0.17 },
+    "Naive": { "Berry": 0.83, "Ingredient": 0.58, "Skill": -1.0 },
+
+    "Modest": { "Berry": -1.67, "Ingredient": 0.5, "Skill": -0.33 },
+    "Mild": { "Berry": -1.0, "Ingredient": 1.17, "Skill": 0.0 },
+    "Quiet": { "Berry": -0.67, "Ingredient": 2.0, "Skill": 1.0 },
+    "Bashful": { "Berry": 1.0, "Ingredient": 1.0, "Skill": 1.0 },
+    "Rash": { "Berry": -0.5, "Ingredient": 2.0, "Skill": -0.67 },
+
+    "Calm": { "Berry": -0.67, "Ingredient": -0.67, "Skill": 0.67 },
+    "Gentle": { "Berry": -0.33, "Ingredient": 0.33, "Skill": 1.33 },
+    "Sassy": { "Berry": 0.0, "Ingredient": 0.25, "Skill": 1.67 },
+    "Careful": { "Berry": 1.5, "Ingredient": -1.0, "Skill": 1.33 },
+    "Quirky": { "Berry": 1.0, "Ingredient": 1.0, "Skill": 1.0 }
+  },
+
+  "subskillScores": {
+    "Berry Finding S": { "Berry": 5, "Ingredient": 4, "Skill": 5 },
+    "Dream Shard Bonus": { "Berry": 2, "Ingredient": 2, "Skill": 2 },
+    "Energy Recovery Bonus": { "Berry": 3, "Ingredient": 3, "Skill": 3 },
+    "Helping Bonus": { "Berry": 5, "Ingredient": 5, "Skill": 5 },
+    "Helping Speed S": { "Berry": 3, "Ingredient": 3, "Skill": 3 },
+    "Helping Speed M": { "Berry": 4, "Ingredient": 4, "Skill": 4 },
+
+    "Ingredient Finder S": { "Berry": 1, "Ingredient": 4, "Skill": 3 },
+    "Ingredient Finder M": { "Berry": 1, "Ingredient": 5, "Skill": 4 },
+
+    "Inventory Up S": { "Berry": 2, "Ingredient": 3, "Skill": 2 },
+    "Inventory Up M": { "Berry": 3, "Ingredient": 4, "Skill": 3 },
+    "Inventory Up L": { "Berry": 4, "Ingredient": 5, "Skill": 4 },
+
+    "Research EXP Bonus": { "Berry": 2, "Ingredient": 2, "Skill": 2 },
+
+    "Skill Level Up S": { "Berry": 3, "Ingredient": 3, "Skill": 4 },
+    "Skill Level Up M": { "Berry": 4, "Ingredient": 4, "Skill": 5 },
+
+    "Skill Trigger S": { "Berry": 3, "Ingredient": 3, "Skill": 4 },
+    "Skill Trigger M": { "Berry": 4, "Ingredient": 4, "Skill": 5 },
+
+    "Sleep EXP Bonus": { "Berry": 3, "Ingredient": 3, "Skill": 3 }
+  }
+}
